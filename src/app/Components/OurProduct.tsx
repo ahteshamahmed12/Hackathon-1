@@ -18,17 +18,17 @@ function OurProducts() {
                     return(
                         <div className='hover'>
                             <div className=' lg:w-[285px] lg:h-[301px] w-[150px]  '>
-                               <Link href="">{item.img1} </Link> 
+                               <Link href="">key={item.img1} </Link> 
                                 <div>
-                                <Link href="">{item.img2} </Link> 
+                                <Link href="">key={item.img2} </Link> 
                                 </div>
                                
                             
                             <div className='lg:w-[285px] lg:h-[145px] w-[150px] bg-[#f4f5f7] py-4   px-4'>
                             
-                              <div className='font-semibold lg:text-2xl text-base '>  <Link href="">{item.h6} </Link>   <br /></div>
-                              <div className='font-medium text-[#898989] text-xs lg:text-base pt-2 '>  <Link href="">{item.p} </Link>   <br /></div>
-                              <div className='font-semibold lg:text-xl text-xs pt-2 flex '>  <Link href="">{item.h5} </Link>  <br /><span className='font-normal text-xs lg:text-base text-[#B0B0B0] lg:pl-4 pl-1'><del><Link href="">{item.h51} </Link> </del> </span> </div>
+                              <div className='font-semibold lg:text-2xl text-base '>  <Link href="">key={item.h6} </Link>   <br /></div>
+                              <div className='font-medium text-[#898989] text-xs lg:text-base pt-2 '>  <Link href="">key={item.p} </Link>   <br /></div>
+                              <div className='font-semibold lg:text-xl text-xs pt-2 flex '>  <Link href="">key={item.h5} </Link>  <br /><span className='font-normal text-xs lg:text-base text-[#B0B0B0] lg:pl-4 pl-1'><del><Link href="">key={item.h51} </Link> </del> </span> </div>
                                 </div>
                                 </div>
                             
