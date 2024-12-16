@@ -27,9 +27,9 @@ function page() {
        
         <div className='flex gap-5 lg:ml-16 ml-8 mt-8 '>
             {
-                product.map((item)=>{
+                product.map((item,index)=>{
                     return(
-                        <div className='hover'>
+                        <div key={index}>
                             <div className=' lg:w-[285px] lg:h-[301px] w-[150px]  '>
                                <Link href="SingleProduct/">{item.img1} </Link> 
                                 <div>
@@ -80,9 +80,9 @@ function page() {
         </div>
         <div className='flex gap-5 lg:ml-16 ml-8 lg:mt-40 mt-12'>
             {
-                product.map((item)=>{
+                product.map((item,index)=>{
                     return(
-                        <div className='hover'>
+                        <div key={index}>
                             <div className=' lg:w-[285px] lg:h-[301px] w-[150px]  '>
                                <Link href="">{item.img1} </Link> 
                                 <div>
@@ -106,9 +106,9 @@ function page() {
         </div>
         <div className='flex gap-5 lg:ml-16 ml-8 lg:mt-40 mt-12'>
             {
-                product.map((item)=>{
+                product.map((item,index)=>{
                     return(
-                        <div className='hover'>
+                        <div key={index}>
                             <div className=' lg:w-[285px] lg:h-[301px] w-[150px]  '>
                                <Link href="">{item.img1} </Link> 
                                 <div>
