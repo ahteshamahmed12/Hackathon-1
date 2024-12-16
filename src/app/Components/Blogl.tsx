@@ -79,7 +79,7 @@ function Blogl() {
          </div>
          
          </div>
-      //   <div>
+        <div>
             <div className='w-[311px] h-[58px] border-[1px] border-[#9f9f9f] mt-32 rounded-[10px] ml-12 '>
                 <div className='pl-[270px] pt-4 '><Search/></div> 
                

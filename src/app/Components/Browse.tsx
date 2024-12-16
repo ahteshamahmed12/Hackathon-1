@@ -12,9 +12,9 @@ function browse() {
       <p className='lg:text-[20px] font-normal text-2xl text-[#666666]  text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         <div>
           {
-            data.map((img)=>{
+            data.map((img,index)=>{
               return(
-                <div  >
+                <div key={index}  >
                   <div className='ml-52 lg:ml-28 lg:flex lg:gap-3  '>
                  <div  >
                   <div className='pt-6'>
