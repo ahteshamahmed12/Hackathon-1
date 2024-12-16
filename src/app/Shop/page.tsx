@@ -54,10 +54,10 @@ function page() {
 
         <div className='flex gap-5 lg:ml-16 ml-8 lg:mt-40 mt-12  '>
             {
-                product.map((item,key)=>{
+                product.map((item,index)=>{
                     return(
-                        <div className='hover'>
-                            <div className=' lg:w-[285px] lg:h-[301px] w-[150px]  '>
+                        <div key={index}>
+                            <div className=' lg:w-[285px] lg:h-[301px] w-[150px] hover '>
                                <Link href="">key={item.img1} </Link> 
                                 <div>
                                 <Link href="">key={item.img2} </Link> 

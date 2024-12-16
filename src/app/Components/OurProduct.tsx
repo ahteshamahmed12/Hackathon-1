@@ -14,10 +14,10 @@ function OurProducts() {
        
         <div className='flex gap-5 lg:ml-16 ml-8 '>
             {
-                product.map((item)=>{
+                product.map((item,index)=>{
                     return(
-                        <div className='hover'>
-                            <div className=' lg:w-[285px] lg:h-[301px] w-[150px]  '>
+                        <div   key={index}>
+                            <div className=' lg:w-[285px] lg:h-[301px] w-[150px]   '>
                                <Link href="">key={item.img1} </Link> 
                                 <div>
                                 <Link href="">key={item.img2} </Link> 
